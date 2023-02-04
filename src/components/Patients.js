@@ -1,10 +1,13 @@
 import React, { useState, useEffect } from 'react';
 
-const defaultStyle = {
-    display: "flex",
-    justifyContent: "center",
-    marginTop: "150px"
-};
+const center = {
+    textAlign: "center"
+}
+
+const top = {
+    marginTop: "150px",
+    marginBottom: "-300px"
+}
 
 let url = "http://localhost:3000/patients";
 
@@ -23,7 +26,9 @@ const Patients = () => {
     }, []);
 
     return(
-        <div className="Patients" style={defaultStyle}>
+        <div className="Patients" style={top}>
+            <h1 style={center}>View patients</h1>
+            <br />
             {patients.map((patient) => {
                 return (
                     <div className="patient" key={patient.id}>
