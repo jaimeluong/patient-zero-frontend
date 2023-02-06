@@ -1,4 +1,4 @@
-import { Outlet } from "react-router-dom";
+import { Outlet } from "react-router-dom"; // Outlet allows variable content to be inserted between the header and footer
 import Navbar from '../components/Navbar.js';
 import Footer from '../components/Footer.js';
 

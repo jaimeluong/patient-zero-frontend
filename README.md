@@ -21,6 +21,5 @@ $ npm start
 
 ## Notes
 
-- Work on adding POST request feature through form submissions for all back-end models.
 - Integrate more Bootstrap styling and move away from any vanilla HTML/CSS in the code.
 - Refactor components to maximize reusability; keep code DRY.
