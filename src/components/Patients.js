@@ -39,6 +39,7 @@ const Patients = () => {
                     </div>
                 );
             })}
+            <a href="http://localhost:3001/patients/new">New patient</a>
         </div>
     );
 }

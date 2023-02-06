@@ -38,6 +38,7 @@ const Providers = () => {
                     </div>
                 );
             })}
+            <a href="http://localhost:3001/providers/new">New provider</a>
         </div>
     );
 }

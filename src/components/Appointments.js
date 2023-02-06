@@ -39,6 +39,7 @@ const Appointments = () => {
                     </div>
                 );
             })}
+            <a href="http://localhost:3001/appointments/new">New appointment</a>
         </div>
     );
 }
